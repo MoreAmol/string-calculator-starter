@@ -43,9 +43,8 @@ class StringCalculator {
 			return total;
 
 	}
-	private String[] splitNumbers(String input, String string) {
-		// TODO Auto-generated method stub
-		return null;
+    private static String[] splitNumbers(String numbers, String divider) {
+		 return numbers.split(divider);
 	}
 	private static int toInt(String number){
 		return Integer.parseInt(number);
